@@ -1,0 +1,81 @@
+.logo {
+    width: 500px;
+}
+
+/* Seletor TAG */
+
+body{
+    background-color: #fbff01;
+    font-family: Zapf-Chancery;
+  }
+  
+  header{
+    color: rgb(52, 10, 95);
+    text-align: center;
+    
+  }
+
+  main{
+    color: rgb(98, 20, 170);
+    text-align: center;
+    
+  }
+  
+  /* Seletor Classe */
+  .container{
+    border: 5px solid hotpink;
+    /* margin: 50px; */
+      /* TOP RIGHT BOTTOM LEFT */
+      /* TOP BOTTOM / RIGHT LEFT */
+    margin: 50px 30px;
+    padding: 50px;
+    background-image: linear-gradient(to left, #6A0136, #F7B2BD);
+    border-radius: 10px;
+  }
+  
+  /* Seletor filho */
+  header > img{
+    display: block;
+    margin: 0 auto;
+  }
+  
+  section{
+    background-color: #C78283;
+    padding: 30px;
+    border-image: linear-gradient(to left, #6A0136, #F7B2BD);
+    box-shadow: 5px 5px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px;
+    border: 10px #6A0136;
+  }
+  
+  footer{
+    text-align: center;
+    background-color: #C78283;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #6A0136;
+    margin-top: 20px;
+  }
+  
+  /* Seletor Descendente */
+  
+  footer li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  footer i{
+    fonte-size: 36px !important;
+  }
+  
+  footer a{
+    color: pink;
+    text-decoration: none;
+    }
+  
+  .cor-pink{
+    color: pink;
+    }
+  
